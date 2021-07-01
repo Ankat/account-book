@@ -22,7 +22,7 @@ public class InitialBalancerLoader implements ApplicationListener<ContextRefresh
     private final PaymentRealizedService paymentRealizedService;
 
     @Override
-    public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
+    public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent){} /*{
 
         AccountModel accountModelA = new AccountModel();
         accountModelA.setAccountNo("1111");
@@ -127,5 +127,5 @@ public class InitialBalancerLoader implements ApplicationListener<ContextRefresh
         paymentRealizedService.savePaymentRealized(paymentRealizedModelC60);
         paymentRealizedService.savePaymentRealized(paymentRealizedModelC80);
         paymentRealizedService.savePaymentRealized(paymentRealizedModelC100);
-    }
+    }*/
 }
